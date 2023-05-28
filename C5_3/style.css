@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-number {
+    margin: 10px;
+    padding: 10px;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+}
+
+.button-OK {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 16px ;
+    border-radius: 5px;
+    border-width: 1px; 
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.card {
+    margin: 20px;
+    width: 200px;
+}
+
+.card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+}
